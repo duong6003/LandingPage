@@ -13,6 +13,6 @@ namespace LandingPage.Kernel.Commons.Response
         {
             Messages = messages;
         }
-        IEnumerable<string> Messages { get; set; }
+        public IEnumerable<string> Messages { get; set; }
     }
 }
